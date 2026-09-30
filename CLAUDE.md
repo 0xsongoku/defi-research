@@ -17,8 +17,9 @@ geen coder: leg techniek kort uit, DeFi-begrippen niet. Nederlands.
 
 1. `git pull --rebase`.
 2. Lees `profiel.md`, `lessen.md`, `MEMORY.md`, `TODO.md`.
-3. Open met: "TODO heeft N items; laatste analyse is van <datum>." Toon `TODO.md` als tabel.
-4. Wacht op richting.
+3. Toon de queue in exact dit format: `## defi-research` · cursieve regel `Laatste update: …` ·
+   tabel **# · Bot/Component · Taak · Eigenaar · Blocker** (plus backlog-tabel) · regel `**Status:**`.
+4. Wacht op richting. Stel geen werk voor tot ik aangeef wat ik wil.
 
 ---
 
@@ -94,6 +95,29 @@ geen coder: leg techniek kort uit, DeFi-begrippen niet. Nederlands.
 ## Vaste regels
 
 > Gepromoveerd uit `lessen.md` (≥3×). Vorm: gebod + vindplaats. Nog leeg.
+
+---
+
+## Werkregels (Karpathy, uit `claude-config`)
+
+1. **Denk vóór je bouwt.** Maak aannames expliciet; vraag bij onduidelijkheid. Kan een feit uit
+   docs/data komen, haal het daar en verifieer de autoritaire bron.
+2. **Eenvoud eerst.** Minimum dat het probleem oplost; geen speculatieve features.
+3. **Chirurgisch.** Raak alleen aan wat gevraagd is; match bestaande stijl.
+4. **Doelgericht.** Vertaal taken naar verifieerbare checks: `[stap] → verificatie: [check]`.
+
+---
+
+## Plan mode
+
+1. Schrijf het plan. Eén vragenronde (max 5) alleen bij richtingbepalende ambiguïteit.
+2. **Fable-review** (`model="fable"`, senior architect) alleen als het plan raakt aan:
+   signalen/uitvoering/fondsen · een nieuwe component · >~200 regels code. Drie vragen: is dit de
+   beste aanpak? wat zou je anders doen? welke risico's? Presenteer plan + kritiek samen vóór bouwen.
+3. Bij risico-/sizing-inschattingen: eerst een eigen onafhankelijke schatting, dan pas mijn cijfers;
+   altijd met confidence-level.
+4. **Zwaar spoor** (van-scratch architectuur, nieuw uitvoeringsmechanisme, sterk afhankelijke
+   fasen, hoge inzet): `playbooks/plan_interview.md`. Kondig die keuze aan vóór start.
 
 ---
 

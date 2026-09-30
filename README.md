@@ -9,3 +9,4 @@ een andere machine (zie `plans/roadmap.md`).
 - `plans/ORACLE.md` — ideeën · `plans/roadmap.md` — fasen
 - `intel/sources/` — geverifieerde bronnen · `analyses/` — analyses
 - `tests/test_context_budget.py` — bewaakt geheugengroei
+- `playbooks/plan_interview.md` — zwaar plan-spoor (uit `claude-config`)
