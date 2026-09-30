@@ -1,0 +1,42 @@
+{
+  "permissions": {
+    "defaultMode": "default",
+    "disableBypassPermissionsMode": "disable",
+    "allow": [
+      "Bash(git status*)",
+      "Bash(git diff*)",
+      "Bash(git log*)",
+      "Bash(git add *)",
+      "Bash(git commit *)",
+      "Bash(git pull --rebase)",
+      "Bash(git push origin main)",
+      "Bash(ls *)",
+      "Bash(grep *)",
+      "Bash(wc *)",
+      "Bash(python3 tests/*)",
+      "WebFetch(domain:defillama.com)",
+      "WebFetch(domain:api.llama.fi)",
+      "WebFetch(domain:etherscan.io)",
+      "WebFetch(domain:coingecko.com)",
+      "WebFetch(domain:l2beat.com)"
+    ],
+    "deny": [
+      "Read(**/.env)",
+      "Read(**/.env.*)",
+      "Read(~/.config/defi-research/**)",
+      "Read(~/.ssh/**)",
+      "Edit(~/.ssh/**)",
+      "Bash(cat *.env*)",
+      "Bash(cat ~/.ssh/*)",
+      "Bash(git push --force*)",
+      "Bash(git push -f*)",
+      "Bash(git push *--force*)",
+      "Bash(cast send*)",
+      "Bash(cast wallet*)",
+      "Bash(cast mktx*)",
+      "Bash(*sendRawTransaction*)",
+      "Bash(*eth_sendTransaction*)",
+      "Bash(*eth_sign*)"
+    ]
+  }
+}

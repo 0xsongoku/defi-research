@@ -1,0 +1,8 @@
+# Secrets horen hier nooit; keys staan in ~/.config/defi-research/.env
+.env
+.env.*
+*.key
+*.pem
+keystore/
+.claude/settings.local.json
+__pycache__/
