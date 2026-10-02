@@ -1,12 +1,12 @@
 # Roadmap
 
-**Status:** 🟢 actief — fase 1 afgerond 2026-09-30
+**Status:** 🟢 actief — fase 0-1 afgerond 2026-10-02
 
 Klein beginnen. Elke fase pas starten als de vorige iets oplevert.
 
 | Fase | Wat | Eric doet | Status |
 |------|-----|-----------|--------|
-| 0 | Repo, deploy key, oude ideeën veiligstellen | Deploy key toevoegen, brede key weg | 🔧 |
+| 0 | Repo, deploy key, oude ideeën veiligstellen | Deploy key toevoegen, brede key weg | ✅ |
 | 1 | Skelet: CLAUDE.md, profiel, lessen, memory, TODO, ORACLE, settings, budgettest | Persona kiezen, profiel invullen | ✅ |
 | 2 | Eerste bron + verify-test | Read-only key in `~/.config/defi-research/.env` | ⏸️ |
 | 3 | Handmatige analyses met correcties (= training) | Protocollen kiezen die je kent, corrigeren | ⏸️ |
